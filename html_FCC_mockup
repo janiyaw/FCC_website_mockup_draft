@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="keywords"
+      content="code,free,camp,freecodecamp,html,css,beginner"
+    />
+    <meta
+      name="description"
+      content="The Self-Taught Developer's Guide to Learning How to Code"
+    />
+    <meta name="robots" content="nofollow" />
+    <meta http-equiv="author" content="Janiya" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="Tuesday, 04 Aug 2020 12:56:10 GMT" />
+    <title>The Self-Taught Developer's Guide to Learning How to Code</title>
+    <style>
+      body {
+font-family: arial;
+      } 
+      #navbanner {
+background: black;
+position: fixed;
+top: 0;
+width: 100%;
+      }
+      #donatebutton {
+        color: black;
+background: gold;
+border-color: gold;
+float: right;
+padding: 10px;
+      }
+      #donatebutton:hover {
+background: yellow;
+border-color: gold;
+color: black;
+      }
+      #banner {
+background: navy;
+color: white;
+text-align: center;
+padding: 1em;
+      }
+      #bannerlink {
+color: white;
+      }
+      #bannerlink:hover {
+        text-decoration: none;
+      }
+      #maincontainer {
+        margin: 0 auto;
+        width: 800px;
+text-align: left;
+      }
+      #selfimprovement {
+        color: navy;
+      }
+      #selfimprovement:hover {
+text-decoration: none;
+color: navy;
+      }
+.notextdecoration {
+  color: black;
+}
+.notextdecoration:hover {
+  text-decoration: none;
+}
+.footerctabutton {
+background: gray;
+border-color: black;
+border-style: solid;
+padding: 10px;
+}
+.footerctabutton:hover {
+background: black;
+color:white;
+border-color: black;
+border-style: solid;
+}
+p {
+font-size: 1.3em;
+line-height: 35px;
+}
+li {
+font-size: 1.3em;
+line-height: 35px;
+}
+#authorpic {
+  margin-right: 15px;
+}
+#date {
+  font-size: 15px;
+}
+#searchbar {
+  background: gray;
+  padding: 10px;
+}
+#logo {
+display: block;
+margin: auto;
+}
+      </style>
+      <body>
+        <!--NAV BANNER-->
+        <div id="navbanner">
+          <!--SEARCH BAR-->
+          <form action="#" method="get">
+<input type="searh" placeholder="Search 6,000+ tutorials" id="searchbar" size="50" />
+          </form>
+        -->
+          <!--FREE CODE CAMP LOGO-->
+          <div id="logo">
+<img src="https://www.freecodecamp.org/news/content/images/2019/11/fcc_primary_large_24X210.svg" />
+          </div>
+<!--DONATE CTA BUTTON-->
+<a href="https://www.freecodecamp.org/donate/" title="Donate to Free Code Camp" target="_blank">
+<input type="button" value="Donate" id="donatebutton"/>
+</a>
+        </div>
+        <!--BANNER-->
+        <div id="banner">
+<h2>Stay safe, friends. Learn to code from home. <a href="https://www.freecodecamp.org" title="Free Code Camp" target="_blank" id="bannerlink">Use our free 2,000 hour curriculum.</a></h3>
+        </div>
+        <!--MAIN CONTAINER-->
+        <div id="maincontainer">
+<div>
+<p id="date">4 AUGUST 2020 / <a href="https://www.freecodecamp.org/news/tag/self-improvement/" title="Self Improvement posts" target="_blank" id="selfimprovement">#SELF IMPROVEMENT</a></p>
+<h1>The Self-Taught Developer's Guide to Learning How to Code</h1>
+</div>
+<!--AUTHOR INFORMATION-->
+        <div>
+          <a href="https://www.freecodecamp.org/news/author/linda/" title="Articles written by Linda Ikechukwu" target="_blank" class="notextdecoration">
+<h3 id="author"><img src="https://www.gravatar.com/avatar/f01c88cc6f9b654797d1254417a8b694?s=250&d=mm&r=x" alt="Writer, Linda Ikechukwu" width="60" height="60" align="middle" id="authorpic" />Linda Ikechukwu</h3>
+          </a>
+        </div>
+        <!--HERO IMAGE-->
+<img src="https://www.freecodecamp.org/news/content/images/size/w2000/2020/08/How-To-Learn-To-Code.png" title="" alt="How To Learn to Code: A guide for beginner self taught developers" width="100%" id="heroimage" />
+<!--BODY COPY-->
+        <div>
+<p>So you want to learn to code? My personal advice would be to attend 
+  a bootcamp, because they offer a structured curriculum, mentors, 
+  dedicated learning time, collaboration and networking between 
+  students. <br />
+  <br />
+  Unfortunately, not everybody who wants to learn to code can afford the money and time 
+  commitment that a bootcamp requires. <br />
+  <br />
+  Luckily, there's an alternative that many prominent software developers have chosen: 
+  the self taught route. When teaching yourself to code, you learn on your own schedule 
+  using free or paid online / offline resources. <br />
+  <br />
+  But in order to be successful on this self learning route and jump from beginner 
+  developer to junior developer quickly, you will need to incorporate some of the magic of 
+  bootcamps into your self taught journey. In this article, I’ll be sharing how you can do 
+  that. <br />
+  <br />
+  Before we get started, you should know that this article was originally a <a href="https://speakerdeck.com/lindaikechukwu4/the-beginner-developers-guide-to-effective-learning" title="The Beginner Developer's Guide to Effective Learning by Linda Ikechukw" target="_blank" class="notextdecoration">talk</a> I gave at the
+   Developers In Vogue MTB session. I decided to turn it into an article for more 
+   accessibility after receiving some good feedback. <br />
+   <br />
+   So grab a cup of coffee or your favorite soda, get a pen and notepad, and jot some notes 
+   down. I’ll also be dropping some random quotes here and there, so brace yourselves 😊.
+  </p>
+  <h1>
+    <strong>So how do you get started?
+    </strong>
+  </h1>
+  <p>There are five phases you should go through when teaching yourself to code</p>
+  <ol>
+    <li>Pick a niche.</li>
+    <li>Find structured learning resources for your niche.</li>
+    <li>Learn.</li>
+    <li>Build something, anything!</li>
+    <li>Netowrk.</li>
+  </ol>
+  <p>Let's go through each phase in more detail.</p>
+  <h1>Pick a Niche</h1>
+  <p>
+    <em>“If you want to succeed, limit yourself.”
+  </em>
+  <br />
+  <br />
+  When starting out on your self taught developer journey, it's important that you pick a 
+  niche. This makes sure that you don't overwhelm yourself. It limits your learning and 
+  gives you the opportunity to devote your attention to a small subset, so you can create 
+  an entry point. <br />
+  <br />
+  Software development is very versatile and comes in different forms. Start by getting an 
+  overview of what programming and software development in general involves. <br />
+  <br />
+  Here are 2 good resources to give you an overview of what programming and software 
+  development careers are all about.
+</p>
+<ul>
+  <li><a href="https://www.freecodecamp.org/news/how-to-become-a-full-stack-web-developer-in-2020/" target="_blank" title="How to Become a Full Stack Web Developer in 2020" class="notextdecoration">How to Become a Full-Stack Web Developer in 2020</a>, by Colby Fayock</li>
+  <br />
+  <li><a href="https://www.youtube.com/watch?v=zOjov-2OZ0E" title="Introduction to Programming and Computer Science on the freeCodeCamp Youtube channel" target="_blank" class="notextdecoration">Introduction to Programming and Computer Science</a> on the freeCodeCamp YouTube channel</li>
+</ul>
+<p>After you’ve gotten a general overview, you should do some inner questioning to settle 
+  on a field that really excites you. Answering the questions below should help pick your 
+  niche.</p>
+  <ol>
+    <li>What do you hope to achieve by learning to code? Do you want to make money 
+      freelancing, get a good job, or build your startup idea?
+      </li>
+      <br />
+    <li>What kind of systems do you want to build? Web (front end or back end), mobile 
+      (Android or iOS), desktop, embedded, data analytics, and so on.
+      </li>
+  </ol>
+  <p>This doesn’t mean that you can’t try out new fields or experiment later on in your career, 
+    but get started with one.</p>
+    <h1>Find structured learning resources for your niche</h1>
+    <p>Congratulations on picking a niche amidst all the choices out there.<br />
+      <br />
+      The next thing to do is to come up with a progressive list of topics/technologies you need 
+      to learn for your niche and find structured learning resources on those topics.<br />
+      <br />
+      When deciding which learning resource to go for, choose those that have structural 
+      progression and code along exercises for practice. Be sure to take note of these points 
+      below:
+    </p>
+    <ol>
+      <li><strong>What languages and technologies are used in this field?</strong> Make a list of the 
+        minimum you need to learn to achieve your goal from the previous step. The 
+        emphasis is on minimum here, simply because you shouldn’t wait to learn 
+        everything in your chosen field before taking the first step towards your goal. 
+        You’ll be waiting a really long time.
+        </li> 
+        <br/>
+      <li><strong>What tools do you need?</strong> Find out the tools you need to learn. A code editor? 
+        Some software? Go ahead and install them.
+        </li>
+        <br />
+      <li><strong>What’s the learning order?</strong> Most fields require that you learn one tool/language 
+        first before another. Remember to always start with the fundamentals and move 
+        on from there.
+        </li>
+    </ol>
+    <p>
+        If you have any further questions regarding a particular niche, you can use Twitter or 
+        Facebook to find people who are active in the niche you’ve chosen. Drop them a 
+        message and get straight to the point on what they can help you with. You’ll be amazed 
+        how much people in the tech community are willing to help. <br />
+        <br />
+        For Twitter, here is <a href="https://twitter.com/hackSultan/status/1143186098820194304?s=20" target="_blank" title="Twitter thread of people in different tech fields" class="notextdecoration blackcopy">a thread listing active people in different tech fields on twitter</a> that 
+        you can follow and are open to answering questions related to their field by Hacksultan.<br />
+        <br />
+        And you'll find a list of great free learning resources at the end of this article.
+    </p>
+    <h1>Learn</h1>
+    <p><em>“If you chase two rabbits, you will not catch any”.</em> <br />
+      <br />
+      Great, you’ve done it. You’ve figured out what you need to learn to smash your goals and 
+      you’ve also found a learning resource to use. Now it's time to learn those things 
+      sequentially, not simultaneously.
+    </p>
+    <h2>Be consistent</h2>
+    <p>The first thing to do is to set aside time for your learning. Set a specific time every day 
+      during your daily schedule within which you’ll learn and be selfish about it.<br />
+      <br />
+      Two hours of learning every day is a lot better than 15 hours of learning in one day, per 
+      month. Here, consistency is key. You want to learn to get a job? Then you’ve got to learn 
+      like it's your job until you get one.
+    </p>
+    <h2>Set goals</h2>
+    <p>
+        Also, for effective learning, you have to set weekly goals so you can hold yourself 
+        accountable. <br />
+        <br />
+        Studies have shown that people who consciously set goals are more likely to achieve 
+        things. And people who go the extra mile of writing down those goals are most likely to 
+        get things done.<br />
+        <br />
+        What do you want to know or be able to do at the end of the month? How will you 
+        structure your learning per week to be able to achieve that? Write it down.
+    </p>
+    <h2>Stay focused</h2>
+    <p>
+        It's also important that you remember to focus on your outlined learning plan and your 
+        chosen learning resource.<br />
+        <br />
+        In the tech-sphere, there’s always a shiny new object - something new to learn. Don’t get 
+        carried away or overwhelmed, that’s why you’ll be needing a lot of focus. One completed 
+        tutorial is better than 10 sampled tutorials.
+    </p>
+    <h1>Build Something! Anything.</h1>
+    <p><em>"The difference between you and those with talent is practice; a lot of it."      
+    </em> 
+    <br/>
+    <br />
+    As a beginner developer, it's easy to get stuck in the tutorial zone, or "tutorial hell". A lot 
+    of people get stuck there, and stay beginners for way too long. This is where you watch 
+    tutorial after tutorial without ever getting your hands dirty. <br />
+    <br />
+    Building projects is not mutually exclusive to the learning phase. You have to constantly 
+    iterate between learning and building because learning never actually ends.<br />
+    <br />
+    This is why I emphasized choosing learning resources that feature a lot of code-along 
+    projects to get you started practicing. Make sure to code along and not just watch. This 
+    helps you get started making something. <br />
+    <br />
+    One way to get some practice is, at the end of every module, think of features that you 
+    can add to the project that you’ve coded. Just try to build something with the new 
+    knowledge that you have gained.<br />
+<br />
+It doesn't have to be too fancy. The most important thing is that you write code, run into 
+errors, google how to debug it, and gain more understanding. Practice solidifies 
+knowledge, so practice. 1 completed project is better than 10 watched tutorials.<br />
+<br />
+You can use google to find project ideas, or check out <a href="https://www.freecodecamp.org/news/here-are-some-app-ideas-you-can-build-to-level-up-your-coding-skills-39618291f672/" title="App Ideas to Build to Level Up Coding Skills" target="_blank" class="notextdecoration">these fun ones</a>.
+    </p>
+    <h1>Network</h1>
+    <p>To network simply means to learn in public and put yourself out there. You don’t stand to 
+      gain much if you’re a silo. So, how do you put yourself out there?</p>
+      <h2>Join a community & Attend Meetups</h2>
+      <p>
+          A community challenges you and inspires you at the same time. You become aware of 
+          people who are in the same field as you are, with the same struggles you have. You’ll also 
+          get the opportunity to collaborate and form lifelong friendships.<br />
+<br />
+Here is <a href="https://www.freecodecamp.org/news/best-developer-communities-to-be-part-of-in-2020/" target="_blank" title="The Best Developer Communities to Join in 2020" class="notextdecoration">list of some global remote tech communities you can join</a> by Bolaji Ayodeji. Also 
+look for local communities in your city too.
+      </p>
+      <h2>Sell yourself</h2>
+      <p>Opportunity no longer comes to the most qualified – it goes to the most visibly qualified.<br />
+        <br />
+        Selling yourself means talking about yourself and what you’re currently doing. This gives 
+        you more exposure and could open up a lot of opportunities for you.<br />
+        <br />
+        Set up a GitHub account and push code there. Start a twitter account and talk about 
+        what you’re learning or building.</p>
+        <h2>Ask questions</h2>
+        <p>Asking engaging questions is another way to network and introduce yourself to other 
+          people. There is really no shame in asking questions.<br />
+          <br />
+          If you get stuck on a particular problem, use social media and your physical connections 
+          to your advantage. Learn to slide into people's DMs and emails. The only reason you may 
+          not get a reply is if you don't know how to word your request well.<br />
+          <br />
+          <strong>Tip:</strong> When reaching out, it’s best to send a few prepared questions as opposed to just 
+          sending a ‘Hi’ and asking for their time.<br />
+          <br />
+          You should put together a list of questions that will answer the challenges you’re 
+          currently facing. You’re more likely to get a response if someone knows upfront what 
+          kind of time commitment they’re making.<br />
+          <br />
+          A sample message could be:<br />
+          <br />
+        </p>
+<blockquote cite="https://www.freecodecamp.org/news/the-self-taught-developers-guide-to-coding/">
+  <p>
+      "Hello, my name is (insert name here), I hope you’re doing fine. I have been seeing your 
+        content for a while and I see you’re knowledgeable in (insert field here). I’ve been trying to 
+          understand (insert challenge here). I have tried (insert approaches you've taken to try to solve 
+            your challenge) Could you help (insert what you need). Thanks."
+  </p>
+</blockquote>
+<h1>Conclusion</h1>
+  <p>
+      I hope this article has brought some clarity to your journey on learning to code as a 
+      beginner.<br />
+      <br />
+      One last thing: coding is difficult, and learning on your own can be even tougher. You’ll 
+      definitely come across some bad days.<br />
+      <br />
+      Just remember to go easy on yourself on days when things don’t make any sense. In the 
+      long run, your consistency and perseverance towards learning will definitely pay off.<br />
+      <br />
+      Now go on and be great!<br />
+      <br />
+      Here is that list of free learning guides/resources for different fields that should help you 
+      get started.<br />
+      <br />
+      Front end Web Development:
+  </p>
+  <ul>
+    <li><a href="https://www.notion.so/Frontend-Developer-Learning-Guide-39e189f4a49b4fcb9a6304ebf1f327a9" title="Frontend Developer Learning Guide" target="_blank" class="notextdecoration">Frontend Developer Learning Guide by Ire Aderinokun</a></li> 
+    <br/>
+    <li><a href="https://www.freecodecamp.org/learn/" target="_blank" title="freeCodeCamp's Responsive Web Design Certification" class="notextdecoration">freeCodeCamp's Responsive Web Design Certification</a> and Front End Libraries 
+      Certification</li>
+    </ul>
+  <p>UX Design:</p>
+  <ul>
+<li><a href="https://www.notion.so/UX-Learning-Guide-24d5040b127749aa81b1af98ad93e64f" title="UX Learning Guides" class="notextdecoration" target="_blank">UX Learning Guide</a> by Opemipo.</li>
+<br />
+<li><a href="https://www.udacity.com/course/rapid-prototyping--ud723" title="Rapid Prototyping" class="notextdecoration" target="_blank">Rapid Prototyping</a> By Google</li>
+  </ul>
+<p>Back end Web Development:</p>
+<ul>
+  <li><a href="https://www.bitdegree.org/learning-path/backend-dev" title="Backend Development Learning path by Bitdgree" target="_blank" class="notextdecoration">Backend Development Learning path by Bitdgree</a></li>
+  <br />
+  <li><a href="https://www.udacity.com/course/intro-to-backend--ud171" title="Intro to Backend by Udacity" target="_blank" class="notextdecoration">Intro To Backend</a> by Udacity</li>
+</ul>
+<p>Android Development:</p>
+<ul>
+  <li><a href="https://blog.mindorks.com/how-to-learn-android-development-f33dd6dba40d" title="How to learn android development from Mindorks" target="_blank" class="notextdecoration">How to learn android development from Mindorks</a></li>
+  <br />
+  <li><a href="https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803" title="Android Basics by Google" target="_blank" class="notextdecoration">Android Basics By Google</a></li>
+  <br />
+  <li><a href="https://www.udacity.com/course/new-android-fundamentals--ud851" title="Developing Android Apps by Udacity" target="_blank" class="notextdecoration">Developing Android Apps by Udacity</a></li>
+</ul>
+<p>iOS Development:</p>
+<ul>
+  <li><a href="https://matteomanferdini.com/become-an-ios-developer/" title="How to become an iOS developer" target="_blank" class="notextdecoration">How to become an iOS developer</a></li>
+  <br />
+  <li><a href="https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585" title="Intro to iOS App Development with Swift" target="_blank" class="notextdecoration">Intro to iOS App Development with Swift</a></li>
+</ul>
+<p>Data Science:</p>
+<ul>
+  <li><a href="https://cognitiveclass.ai/learn/data-science" title="Data Science Foundations" target="_blank" class="notextdecoration">Data Science Foundations</a> by Cognitive AI</li>
+  <br />
+  <li><a href="https://www.udacity.com/course/intro-to-data-analysis--ud170" title="Intro To Data Analysis by Udacity" target="_blank" class="notextdecoration">Intro To Data Analysis by Udacity</a></li>
+</ul>
+<p>Cloud & DevOps</p>
+<ul>
+  <li><a href="https://www.udacity.com/course/intro-to-cloud-computing--ud080" title="Intro to Cloud Computing" target="_blank" class="notextdecoration">Intro to Cloud Computing</a> by Udacity</li>
+  <br />
+  <li><a href="https://www.udacity.com/course/intro-to-devops--ud611" title="Intro to DevOps" target="_blank" class="notextdecoration">Intro to DevOps</a> by Udacity</li>
+</ul>
+        </p>
+              <!--END OF BODY COPY-->
+            </div>
+            <!--FOOTER AREA-->
+<div>
+        <hr />
+        <p><img src="https://www.gravatar.com/avatar/f01c88cc6f9b654797d1254417a8b694?s=250&d=mm&r=x" align="middle" width="50" height="50" />Linda Ikechukwu
+          Frontend Developer. Writer. Community Strategist. Building web interfaces that connect products to their target users.
+        </p>
+        <hr />
+        <p>If you read this far, tweet to the author to show them you care. <span><a href="#" target="_blank" title="Tweet a Thanks"><input type="button" value="Tweet a Thanks" class="footerctabutton" /></a>
+        </span> <br />
+        Learn to code for free. freeCodeCamp's open source curriculum has helped more than 
+        40,000 people get jobs as developers. <span><a href="https://www.freecodecamp.org/learn/" title="Get started" target="_blank"><input type="button" value="Get started" class="footerctabutton" /></a></span>
+      </p>
+      <!--END OF FOOTER AREA-->
+      </div>
+<!--END OF MAIN CONTAINER-->
+        </div>
+      </body>
+      </html>
